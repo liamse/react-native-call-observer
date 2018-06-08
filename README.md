@@ -1,5 +1,5 @@
-# react-native-call-observer
-react-native module to get the status of calls with CXCallObserver
+# react-native-call-observer &middot; [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](README.md#Contributing)
+
 
 ## Getting Started
 ## Contributing
