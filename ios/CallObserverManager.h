@@ -7,12 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+
+#if __has_include(<React/RCTBridgeModule.h>)
 #import <React/RCTBridgeModule.h>
+#else
+#import "RCTBridgeModule.h"
+#endif
+
+#import <React/RCTEventEmitter.h>
 
 #import <CallKit/CXCallObserver.h>
 #import <CallKit/CXCall.h>
 
-@interface CallObserverManager : NSObject <RCTBridgeModule, CXCallObserverDelegate>
+@interface CallObserverManager : RCTEventEmitter <CXCallObserverDelegate>
 @property (nonatomic, strong) CXCallObserver *callObserver;
 
 
