@@ -36,7 +36,7 @@ componentDidMount(){
 
 ## Contributing
 
-Any contribution is weolcomed.
+Any contribution is wellcomed.
 
 ---
 
