@@ -10,6 +10,13 @@ Native call observer for iOS.
 npm install --save react-native-call-observer
 ```
 
+or 
+
+
+```bash
+yarn add react-native-call-observer 
+```
+
 ### Adding automatically with react-native link
 
 At the command line, in your project folder, type:
