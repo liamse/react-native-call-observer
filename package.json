@@ -1,6 +1,6 @@
 {
   "name": "react-native-call-observer",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "main": "index.js",
   "keywords": [
     "react-native",
@@ -15,5 +15,15 @@
     "name": "Esmaeil Samadi",
     "email": "esmuilsa@yahoo.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liamse/react-native-call-observer.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.6.0"
+  }
 }
