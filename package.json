@@ -23,7 +23,5 @@
     "type": "git",
     "url": "https://github.com/liamse/react-native-call-observer.git"
   },
-  "devDependencies": {
-    "semantic-release": "^15.6.0"
-  }
+  "dependencies": {}
 }
