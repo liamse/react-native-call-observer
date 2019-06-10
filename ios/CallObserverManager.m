@@ -1,9 +1,7 @@
 //
 //  CallObserver.m
-//  RNAudio
 //
 //  Created by Esmaeil on 6/8/18.
-//  Copyright © 2018 Joshua Sierles. All rights reserved.
 //
 
 #import "CallObserverManager.h"
